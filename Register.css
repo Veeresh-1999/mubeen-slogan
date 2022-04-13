@@ -1,0 +1,116 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.box{
+    margin: 40px auto;
+    width: 750px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.logo img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 40px;
+}
+
+.name{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #C53678;
+margin-top: 10px;
+}
+
+.form{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form input{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 5px 35px;
+    border: none;
+    border-radius: 8px;
+    background: #F3F2F6;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    padding: 3px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 3px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+ /*ckeckbox*/
+.checkbox{
+    padding: 10px 10px 5px 35px;
+    margin-top: 25px;
+}
+
+.button1 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   }
+
+button {
+    margin-top: 30px;
+    padding: 9px 25px;
+    background-color: #C53678;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 200px;
+}
+
+.opt{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #C53678;
+    font-size: 15px;
+}
+
+::placeholder{
+    font-size: 13px;
+}
+

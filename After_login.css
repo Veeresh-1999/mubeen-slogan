@@ -1,0 +1,371 @@
+
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+
+/*mobie view*/
+@media only screen and (max-width: 768px) {
+    .logo{
+      display: none;
+    }
+    .nav-menu {
+        position:absolute;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .ser{
+      display: flex;
+      margin-left: 2%;
+    }
+
+    .text1{
+      text-align: center;
+    }
+}
+
+
+body{
+  background: #F9F9F9;
+}
+::-webkit-scrollbar{
+width: 10px;
+}
+::-webkit-scrollbar-thumb{
+background-color: #C53678;
+border-radius: 50px;
+}
+
+
+/*Head*/
+a{
+  text-decoration: none;
+}
+
+.dropdown-item:hover{
+  color: #B12341;
+}
+
+/*home*/
+ /*search*/
+
+.mainpage{
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.search{
+  border: none;
+  border-bottom: 2px solid black;
+  background: #F9F9F9;
+  width: 250px;
+}
+
+
+.container1{ 
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-content: center;
+  gap: 10px;
+}
+
+::placeholder{
+  font-size: 15px;
+}
+
+.dabutton{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 12px;
+  color: #000000;
+  background: #E8E6ED;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+}
+
+
+.dabutton:focus{
+  background-color:#C53678;
+  color: white;
+}
+table, th, td {
+  border: 1px solid;
+  width: 30%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+
+.flex-container > div {
+  font-family: 'Poppins';
+  background-color: #E8E6ED;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 35px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+.flex-container1 > div {
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 35px;
+}
+
+/*images*/
+.card{
+margin: 8px 8px 8px 8px;
+}
+
+.pro{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 8px;
+  font-size: 15px;
+}
+
+.image{
+  width: 260px;
+  height: 150px;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.img-container{
+  display: flex;
+  font-size: 20px;
+  padding: 10px 10px;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: #C53678;
+}
+
+.text1
+{
+  margin-top: 30px;
+  font-size: 30px;
+  color: #C53678;
+}
+
+.flex-item-one {
+  flex: 20%;
+}
+
+.flex-item-two {
+  flex: 20%;
+}
+
+.flex-item-three {
+  flex: 20%;
+}
+
+.flex-item-four {
+  flex: 20%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-one, .flex-item-two, .flex-item-three, .flex-item-four {
+    flex: 100%;
+    margin-top: 2px;
+  }
+}
+/*like and unkike*/
+button{
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.red{
+  color: red;
+}
+
+
+/*footer*/
+
+/*Footer*/
+
+footer{
+  margin-top: 30%;
+  background-color: rgb(251, 251, 251);
+}
+
+.flex-container4 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 110px ;
+  gap: 10px;
+}
+.title{
+  font-family: 'Brush Script MT';
+  font-size: 50px;
+  padding-top: 75px;
+  color: #C53678;
+}
+
+.shoshial{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin-top: 60px;
+  gap: 10px;
+  justify-content: space-between;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.s-title{
+   font-size: 18px;
+   width: 30%;
+}
+
+.s-media{
+   cursor: pointer;
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  justify-content:left;
+  margin-top: 30px;
+  margin-left: 110px ;
+  color: black;
+}
+
+.button2{
+margin-left: 110px;
+margin-top: 30px;
+padding: 9px 25px;
+background-color: #C53678;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+color: white;
+font-family: 'Poppins';
+font-size: 15px;
+width: 150px;
+}
+
+.s-contact{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin-bottom: 30px;
+}
+
+a{
+   color: black;
+}
