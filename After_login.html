@@ -15,10 +15,10 @@
     <title>After Login</title>
 </head>
 <body>
-<!--header-->
+<!--header
 <header class="header">
     <nav class="navbar">
-        <!--Link-->
+       
         <ul class="nav-menu">
             <li class="nav-item">
                 <a href="#" class="nav-link">Home</a>
@@ -27,12 +27,12 @@
                 <a href="#" class="nav-link">About Us</a>
             </li>
         </ul>
-        <!--Logo-->
+       
         <div class="logo">
             <img src="./images/new-logo.png" alt="">
         </div>
 
-        <!--Profile-->
+        
         <div class="dropdown">
             <img src="./images/profile.png" alt="" height="40px" width="40px">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,7 +52,42 @@
         </div>
     </nav>
 </header>
+-->
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <div class="dropdown">
+                <img src="./images/profile.png" alt="" height="40px" width="40px">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Beck Bowes
+                  </button>
+    
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> My Account</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a></li>
+                  </ul>
+            </div>
+        </form>
+      </div>
+    </div>
+  </nav>
     <!--Home screen-->
     <div class="mainpage">
         <!--search-->
