@@ -44,7 +44,10 @@ margin-top: 10px;
 
 
 
-
+.form{
+    width: 100%;
+    margin-top: 8px;
+}
 .checkbox{
     padding: 10px 10px 5px 35px;
     margin-top: 25px;
