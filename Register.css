@@ -19,7 +19,6 @@ body{
  display: block;
  margin-left: auto;
  margin-right: auto;
- margin-top: 40px;
 }
 
 .name{
@@ -34,7 +33,6 @@ margin-top: 10px;
 }
 
 
-
 .form input{
     width: 100%;
     font-size: 16px;
@@ -46,33 +44,8 @@ margin-top: 10px;
     font-style: normal;
 }
 
-/*
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-    padding: 3px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    padding: 3px;
-    flex: 50%;
-  }
-  */
-  /* Responsive layout - makes a one column-layout instead of a two-column layout */
- /* @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }
-  }
-*/
- /*ckeckbox*/
- /*
+
+
 .checkbox{
     padding: 10px 10px 5px 35px;
     margin-top: 25px;
@@ -98,11 +71,6 @@ button {
     width: 200px;
 }
 
-.opt{
-    margin-top: 20px;
-    font-family: 'Poppins';
-    text-align: center;
-}
 
 a{
     text-decoration: none;
@@ -114,4 +82,3 @@ a{
     font-size: 13px;
 }
 
-*/
