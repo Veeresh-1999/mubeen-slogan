@@ -24,11 +24,23 @@ body{
     
     .box{
         margin: 80px auto;
-        width: 100%;
+        width: 380px;
         background: #FFFFFF;
         box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         padding: 30px;
+    }
+    
+
+    .form input{
+        width: 50%;
+        font-size: 16px;
+        padding: 10px 10px 5px 35px;
+        border: none;
+        border-radius: 8px;
+        background: #F3F2F6;
+        font-family: 'Poppins';
+        font-style: normal;
     }
 }   
 
