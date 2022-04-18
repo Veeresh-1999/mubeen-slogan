@@ -314,17 +314,15 @@ margin: 8px 8px 8px 8px;
   font-family: 'Brush Script MT';
   font-size: 50px;
   color: #C53678;
-  margin-top: 22px;
 }
 
 .button2{
-margin-top: 33px;
-padding: 9px 25px;
+padding: 5px 15px;
 background-color: #C53678;
 border: none;
 border-radius: 100px;
 cursor: pointer;
-color: white;
+color: rgb(255, 255, 255);
 font-family: 'Poppins';
 font-size: 15px;
 width: 150px;
