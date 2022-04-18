@@ -12,6 +12,8 @@
     <script src="https://kit.fontawesome.com/2c7bfd6248.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="After_login.css">
+    <script  type="text/javascript" src="After_login.js"></script>
+    
     <title>After Login</title>
 </head>
 <body>
@@ -107,10 +109,18 @@
                     <div class="card">
                         <div class="pro">
                             <div><img src="./images/profile.png" alt=""> Renjini</div>
-                            <div>
-                            <a href="">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </a>
+                            <div onclick="dilogbox()">
+                                <!--Content-->
+                                <dialog class="dlbox" id="confirmation-dialog">
+                                    <h3>Report this Post!</h3>
+                                    <p><b>Reason for repost</b> <br> 
+                                        <input class="report" type="text" placeholder="Write here"></p>
+                                    <!--Button-->
+                                    <button id="cancel-delete">Cancel</button>
+                                    <button id="confirm-delete">Submit</button>
+                                </dialog>
+                                <!--Icon-->
+                                <i id="delete" class="fa-solid fa-ellipsis-vertical" style="cursor: pointer;"></i>
                             </div>
                         </div>
                         <img class ="image" src="./images/Rectangle 26.png" alt="Avatar" style="width:100%">
@@ -130,10 +140,18 @@
                     <div class="card">
                         <div class="pro">
                             <div><img src="./images/profile.png" alt=""> Renjini</div>
-                            <div>
-                            <a href="">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </a>
+                            <div onclick="dilogbox()">
+                                <!--Content-->
+                                <dialog class="dlbox" id="confirmation-dialog">
+                                    <h3>Report this Post!</h3>
+                                    <p><b>Reason for repost</b> <br> 
+                                        <input class="report" type="text" placeholder="Write here"></p>
+                                    <!--Button-->
+                                    <button id="cancel-delete">Cancel</button>
+                                    <button id="confirm-delete">Submit</button>
+                                </dialog>
+                                <!--Icon-->
+                                <i id="delete" class="fa-solid fa-ellipsis-vertical" style="cursor: pointer;"></i>
                             </div>
                         </div>
                         <img class ="image" src="./images/Rectangle 27.png" alt="Avatar" style="width:100%">
@@ -277,6 +295,11 @@
         </div>
     </div>
 
+<!--reporting the content-->
+
+
+
+
 <!--Footer-->
 <footer>
     <div class="flex-container4">
@@ -311,30 +334,10 @@
         </span>
     </div>
 </footer>
-<script>
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-    
-    hamburger.addEventListener("click", mobileMenu);
-    
-    function mobileMenu() {
-        hamburger.classList.toggle("active");
-        navMenu.classList.toggle("active");
-    }
-    
-//like and unlike
-
-var btn1 = document.querySelector('#red');
-
-btn1.addEventListener('click', function() {
-  
-
-  this.classList.toggle('red');
-  
-});
 
 
 
-</script>
+
+
 </body>
 </html>

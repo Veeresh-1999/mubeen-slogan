@@ -170,6 +170,7 @@ margin: 8px 8px 8px 8px;
 
 .text1
 {
+  text-align: center;
   margin-top: 30px;
   font-size: 30px;
   color: #C53678;
@@ -201,8 +202,43 @@ margin: 8px 8px 8px 8px;
 
 
 
-/*footer*/
+/*report*/
+.dlbox{
+ border: 2px solid #C53678;
+ border-radius: 6px;
+ background-color: #f3dde7;
+}
 
+.report{
+  border: 2px solid #C53678;
+  border-radius: 5px;
+  background: #F9F9F9;
+  width: 300px;
+}
+
+#cancel-delete{
+  background-color: #4CAF50; 
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#confirm-delete{
+  background-color: #ff0000; 
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 /*Footer*/
 
 footer{
