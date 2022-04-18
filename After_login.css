@@ -32,11 +32,17 @@ a{
   margin-right: 90px;
 }
 
+@media only screen and (max-width: 450px){
+  .mainpage{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 .search{
   border: none;
   border-bottom: 2px solid #C53678;
   background: #F9F9F9;
-  width: 200px;
 }
 
 .ser{
