@@ -302,23 +302,13 @@ margin: 8px 8px 8px 8px;
   font-size: 16px;
 }
 /*Footer*/
-.size{
-  margin-right: 90px;
-  margin-left: 90px ;
-  padding-bottom: 30px;
-}
-footer{
-  margin-top: 30%;
-  background-color: rgb(251, 251, 251);
+
+.card-header{
+  background-color: white;
 }
 
-.flex-container4 {
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  font-size: 30px;
-  margin-top: 30px;
-  gap: 25px;
+.card-footer{
+  background-color: white;
 }
 .title{
   font-family: 'Brush Script MT';
@@ -327,39 +317,8 @@ footer{
   margin-top: 22px;
 }
 
-
-.col-sm-8{
-  display: flex;
-  justify-content:center;
-  padding-top: 20px;
-  font-size: 20px;
-}
-
-.col-sm-4{
-  display: flex;
-  justify-content:end;
-  cursor: pointer;
-  gap: 10px;
-}
-
-.story{
-  display: flex;
-  justify-content: center;
-}
-
-
-.contact{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 15px;
-  justify-content:center;
-  margin-top: 30px;
-  color: black;
-  gap: 10px;
-}
-
 .button2{
-margin-top: 30px;
+margin-top: 33px;
 padding: 9px 25px;
 background-color: #C53678;
 border: none;
@@ -369,6 +328,10 @@ color: white;
 font-family: 'Poppins';
 font-size: 15px;
 width: 150px;
+}
+
+.button2:hover{
+  color: black;
 }
 
 
