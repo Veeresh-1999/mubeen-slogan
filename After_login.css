@@ -10,6 +10,10 @@ background-color: #C53678;
 border-radius: 50px;
 }
 
+.navbar-toggler{
+  border: none;
+}
+
 
 /*Head*/
 a{
@@ -30,11 +34,19 @@ a{
 
 .search{
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #C53678;
   background: #F9F9F9;
-  width: 250px;
+  width: 230px;
 }
 
+.ser{
+  margin-top: 20px; 
+  display: flex; 
+  justify-content: center;
+}
+.fa-magnifying-glass:hover{
+  color: #C53678;
+}
 
 .container1{ 
   display: flex;
@@ -46,6 +58,7 @@ a{
 
 ::placeholder{
   font-size: 15px;
+  text-align: center;
 }
 
 .dabutton{
@@ -170,18 +183,7 @@ margin: 8px 8px 8px 8px;
     margin-top: 2px;
   }
 }
-/*like and unkike*/
-button{
-  cursor: pointer;
-}
 
-.btn:focus {
-  outline: none;
-}
-
-.red{
-  color: red;
-}
 
 
 /*footer*/
