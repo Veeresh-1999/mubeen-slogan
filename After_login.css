@@ -1,6 +1,6 @@
 
 body{
-  background: #F9F9F9;
+  background: #f7f5f5;
 }
 ::-webkit-scrollbar{
 width: 10px;
@@ -10,10 +10,17 @@ background-color: #C53678;
 border-radius: 50px;
 }
 
-.navbar-toggler{
-  border: none;
+.navbar{
+  background-color: #ffffff;
 }
 
+.navbar-toggler{
+  border: none;
+  color: black;
+}
+.navbar-toggler-icon{
+  color: black;
+}
 
 /*Head*/
 a{
@@ -25,13 +32,26 @@ a{
 }
 
 /*home*/
- /*search*/
+.navbar-brand{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.nav-link:hover{
+  color: #ff0077;
+}
+.nav-link{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 23px;
+}
 
 .mainpage{
   margin-left: 90px;
   margin-right: 90px;
 }
 
+/*mobile viwe*/
 @media only screen and (max-width: 450px){
   .mainpage{
     margin-left: 0px;
@@ -43,6 +63,45 @@ a{
     border-radius: 5px;
     background: #F9F9F9;
     width: auto;
+  }
+  .center{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /*footer*/
+  .flex-container4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-top: 30px;
+    gap: 25px;
+  }
+
+  .title{
+    font-family: 'Brush Script MT';
+    font-size: 50px;
+    color: #C53678;
+    margin-top: 22px;
+  }
+
+  .container12{
+    display: flex;
+    justify-content: center;
+  }
+  .col-sm-8{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  
+  .col-sm-4{
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+    gap: 10px;
   }
 }
 
@@ -200,7 +259,10 @@ margin: 8px 8px 8px 8px;
   }
 }
 
-
+#delete{
+  height: 10px;
+  width: 15px;
+}
 
 /*report*/
 .dlbox{
@@ -240,7 +302,11 @@ margin: 8px 8px 8px 8px;
   font-size: 16px;
 }
 /*Footer*/
-
+.size{
+  margin-right: 90px;
+  margin-left: 90px ;
+  padding-bottom: 30px;
+}
 footer{
   margin-top: 30%;
   background-color: rgb(251, 251, 251);
@@ -248,50 +314,51 @@ footer{
 
 .flex-container4 {
   display: flex;
+  justify-content: start;
   flex-wrap: wrap;
   font-size: 30px;
   margin-top: 30px;
-  margin-left: 110px ;
-  gap: 10px;
+  gap: 25px;
 }
 .title{
   font-family: 'Brush Script MT';
   font-size: 50px;
-  padding-top: 75px;
   color: #C53678;
+  margin-top: 22px;
 }
 
-.shoshial{
+
+.col-sm-8{
   display: flex;
-  flex-wrap: wrap;
-  font-size: 30px;
-  margin-top: 60px;
-  gap: 10px;
-  justify-content: space-between;
-  margin-left: 110px;
-  margin-right: 110px;
-}
-.s-title{
-   font-size: 18px;
-   width: 30%;
+  justify-content:center;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
-.s-media{
-   cursor: pointer;
+.col-sm-4{
+  display: flex;
+  justify-content:end;
+  cursor: pointer;
+  gap: 10px;
 }
+
+.story{
+  display: flex;
+  justify-content: center;
+}
+
 
 .contact{
   display: flex;
   flex-wrap: wrap;
   font-size: 15px;
-  justify-content:left;
+  justify-content:center;
   margin-top: 30px;
-  margin-left: 110px ;
   color: black;
+  gap: 20px;
 }
 
 .button2{
-margin-left: 110px;
 margin-top: 30px;
 padding: 9px 25px;
 background-color: #C53678;
@@ -304,13 +371,10 @@ font-size: 15px;
 width: 150px;
 }
 
-.s-contact{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 30px;
-   margin-bottom: 30px;
-}
 
 a{
    color: black;
+}
+a:hover{
+  color:#C53678;
 }
