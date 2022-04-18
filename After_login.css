@@ -38,22 +38,25 @@ a{
     margin-right: 0px;
   }
 }
-
+/*
 .search{
   border: none;
   border-bottom: 2px solid #C53678;
   background: #F9F9F9;
   width: auto;
 }
+.fa-magnifying-glass:hover{
+  color: #C53678;
+}
+*/
 
 .ser{
   margin-top: 20px; 
   display: flex; 
   justify-content: center;
 }
-.fa-magnifying-glass:hover{
-  color: #C53678;
-}
+
+
 
 .container1{ 
   display: flex;
