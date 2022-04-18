@@ -37,26 +37,31 @@ a{
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  .search{
+    border: 2px solid #C53678;
+    border-radius: 5px;
+    background: #F9F9F9;
+    width: auto;
+  }
 }
 
 .search{
-  border: 1px solid #C53678;
-  border-radius: 30px;
+  border: 2px solid #C53678;
+  border-radius: 5px;
   background: #F9F9F9;
-  width: auto;
+  width: 300px;
 }
+
 .fa-magnifying-glass:hover{
   color: #C53678;
 }
-
 
 .ser{
   margin-top: 20px; 
   display: flex; 
   justify-content: center;
 }
-
-
 
 .container1{ 
   display: flex;
