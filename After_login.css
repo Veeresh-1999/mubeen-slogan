@@ -38,17 +38,17 @@ a{
     margin-right: 0px;
   }
 }
-/*
+
 .search{
-  border: none;
-  border-bottom: 2px solid #C53678;
+  border: 1px solid #C53678;
+  border-radius: 30px;
   background: #F9F9F9;
   width: auto;
 }
 .fa-magnifying-glass:hover{
   color: #C53678;
 }
-*/
+
 
 .ser{
   margin-top: 20px; 
@@ -63,7 +63,7 @@ a{
   justify-content: center;
   margin-top: 10px;
   align-content: center;
-  gap: 10px;
+  gap: 7px;
 }
 
 ::placeholder{
