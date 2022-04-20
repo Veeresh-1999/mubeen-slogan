@@ -67,16 +67,21 @@ padding-top: 30px;
     margin-left: 110px;
     margin-top: 30px;
 }
-@media only screen and (max-width: 450px)
+@media only screen and (max-width: 530px)
 {
     .detail{
-
+        margin-left: 9px;
+        margin-right: 9px;
         margin-top: 20px;
     }
+    .head{
+        display: none;
+    }
 }
+
 .detail{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 25px;
 }
 
