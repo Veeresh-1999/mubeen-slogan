@@ -33,10 +33,13 @@
             <a class="nav-link active" aria-current="page" href="After_login.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Recent Activities</a>
+            <a class="nav-link" href="#">Compleated task</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Categories</a>
+            <a class="nav-link" href="#">Pending task</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="newpost.html">Add new Post</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -48,7 +51,7 @@
             <div class="dropdown">
                 <img src="./images/profile.png" alt="" height="40px" width="40px">
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Beck Bowes
+                    SISTECH PVT. LTD
                 </button>
     
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -69,235 +72,271 @@
     <div class="mainpage">
         <!--search-->
     
-
-
-        <div class="container" style="margin-top: 40px; ">
-            <div class="text">
-                Select more Category
-            </div>
-
-            <div class="container1">
-                <div class="center">
-                    <button class="dabutton">All</button>
-                    <button class="dabutton">Business</button>
-                    <button class="dabutton">Advertisement</button>
-                    <button class="dabutton">Descriptive</button>
-                    <button class="dabutton">Commanding</button>
-                    <button class="dabutton">Persuading</button>
-                    <button class="dabutton">Creative</button>
-                    <button class="dabutton">Emotive</button>
+        <div class="container text-center" style="margin-top: 20px">
+            <div class="row">
+                <!--pemding task-->
+              <div class="col-sm-3" >
+                <div class="text">
+                    Pending Task
                 </div>
-            </div>    
-            <div class="ser">
-                <div class="row justify-content-md-center">
-                    <div class="col col-lg-12">
-                        <input class="search" type="text" name="search" placeholder="Search more Category..">
-                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                    </div>    
-                </div>
-            </div>          
-        </div>  
-
-
-          
-
-        <div class="flex-container2">
-            <div class="flex-item-top">
-                <p class="text1">Business</p>
-            </div>
-        </div>
-
-                <!--images-->
-            <div class="flex-container3">
-                <div class="flex-item-one">
-                    <div class="card">
-                        <div class="pro">
-                            <div><img src="./images/profile.png" alt=""> Renjini</div>
-                            <div onclick="dilogbox()">
-                                <!--Content-->
-                                <dialog class="dlbox" id="confirmation-dialog">
-                                    <h3>Report this Post!</h3>
-                                    <p><b>Reason for repost</b> <br> 
-                                        <input class="report" type="text" placeholder="Write here"></p>
-                                    <!--Button-->
-                                    <button id="cancel-delete">Cancel</button>
-                                    <button id="confirm-delete">Submit</button>
-                                </dialog>
-                                <!--Icon-->
-                                <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
-                            </div>
-                        </div>
-                        <img class ="image" src="./images/Rectangle 26.png" alt="Avatar" style="width:100%">
-                        <div class="img-container">
-                            <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                            <div>
-                                <button class="btn" id="red">
-                                    <i class="fa-solid fa-heart"></i>
-                                </button>  
-                                <i class="fa-solid fa-share-nodes"></i>
-                            </div>
-                        </div>
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Cloth</div>
+                    <div  class="time">
+                        6 hrs
                     </div>
                 </div>
 
-                <div class="flex-item-two">
-                    <div class="card">
-                        <div class="pro">
-                            <div><img src="./images/profile.png" alt=""> Renjini</div>
-                            <div onclick="dilogbox()">
-                                <!--Content-->
-                                <dialog class="dlbox" id="confirmation-dialog">
-                                    <h3>Report this Post!</h3>
-                                    <p><b>Reason for repost</b> <br> 
-                                        <input class="report" type="text" placeholder="Write here"></p>
-                                    <!--Button-->
-                                    <button id="cancel-delete">Cancel</button>
-                                    <button id="confirm-delete">Submit</button>
-                                </dialog>
-                                <!--Icon-->
-                                <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
-                            </div>
-                        </div>
-                        <img class ="image" src="./images/Rectangle 27.png" alt="Avatar" style="width:100%">
-                        <div class="img-container">
-                            <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                            <div>
-                                <i class="fa-regular fa-heart"></i>
-                                <i class="fa-solid fa-share-nodes"></i>
-                            </div>
-                        </div>
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Watch</div>
+                    <div  class="time">
+                        3 hrs
                     </div>
                 </div>
 
-                <div class="flex-item-three"><div class="card">
-                    <div class="pro">
-                        <div><img src="./images/profile.png" alt=""> Renjini</div>
-                        <div>
-                        <a href="">
-                            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-                        </a>
-                        </div>
-                    </div>
-                    <img class ="image" src="./images/Rectangle 28.png" alt="Avatar" style="width:100%">
-                    <div class="img-container">
-                        <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                        <div>
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
-                        </div>
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Computer</div>
+                    <div  class="time">
+                        8 hrs
                     </div>
                 </div>
-                </div>
-                
-                <div class="flex-item-four">
-                    <div class="card">
-                        <div class="pro">
-                            <div><img src="./images/profile.png" alt=""> Renjini</div>
-                            <div>
-                            <a href="">
-                                <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-                            </a>
-                            </div>
-                        </div>
-                        <img class ="image" src="./images/Rectangle 29.png" alt="Avatar" style="width:100%">
-                        <div class="img-container">
-                            <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                            <div>
-                                <i class="fa-regular fa-heart"></i>
-                                <i class="fa-solid fa-share-nodes"></i>
-                            </div>
-                        </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> AC</div>
+                    <div  class="time">
+                       5 hrs
                     </div>
                 </div>
-            </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Computer</div>
+                    <div  class="time">
+                        3 hrs
+                    </div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Laser </div>
+                    <div  class="time">
+                        2 hrs
+                    </div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Speaker</div>
+                    <div  class="time">
+                        4 hrs
+                    </div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Bluetooth</div>
+                    <div  class="time">
+                        3 hrs
+                    </div>
+                </div>
+              </div>
 
 
-        <div class="flex-container3">
-
-            <div class="flex-item-one">
+              <!--Pending post-->
+              <div class="col-sm-6" style="background-color: white; border-radius: 10px;">
+                <div class="text">
+                    Pending Post
+                </div>
                 <div class="card">
                     <div class="pro">
                         <div><img src="./images/profile.png" alt=""> Renjini</div>
                         <div>
-                        <a href="">
-                            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-                        </a>
+                            3 hrs remaing
                         </div>
                     </div>
                     <img class ="image" src="./images/Rectangle 26.png" alt="Avatar" style="width:100%">
+
                     <div class="img-container">
-                        <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                        <div>
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
+                        <div>Renjini</div>
+                        <div  class="like">
+                                <i class="fa-solid fa-heart"></i> 
+                        </div>
+                    </div>
+
+                    <div class="img-container">
+                        <div><img src="./images/Ellipse 7.png"  class="cmt" alt="">
+                            Without gold rich has no meaning.
+                        </div>
+                        <div onclick="dilogbox()">
+                            <!--Content-->
+                            <dialog class="dlbox" id="confirmation-dialog">
+                                <h3>Select Post</h3>
+                                <p><b>Do you want to select this post?</b> <br><br> 
+                                
+                                <!--Button-->
+                                <button id="confirm-delete">Select</button>
+                                <button id="cancel-delete">Cancel</button>
+                                
+                            </dialog>
+                            <!--Icon-->
+                            80<i class="fa-solid fa-heart"></i> 
+                            <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div><img src="./images/Ellipse 7.png"  class="cmt" alt="">
+                            Without gold rich has no meaning.
+                        </div>
+                        <div onclick="dilogbox()">
+                            <!--Content-->
+                            <dialog class="dlbox" id="confirmation-dialog">
+                                <h3>Report this Post!</h3>
+                                <p><b>Reason for repost</b> <br> 
+                                    <input class="report" type="text" placeholder="Write here"></p>
+                                <!--Button-->
+                                <button id="cancel-delete">Cancel</button>
+                                <button id="confirm-delete">Submit</button>
+                            </dialog>
+                            <!--Icon-->
+                            50<i class="fa-solid fa-heart"></i> 
+                            <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div><img src="./images/Ellipse 7.png"  class="cmt" alt="">
+                            Without gold rich has no meaning.
+                        </div>
+                        <div onclick="dilogbox()">
+                            <!--Content-->
+                            <dialog class="dlbox" id="confirmation-dialog">
+                                <h3>Report this Post!</h3>
+                                <p><b>Reason for repost</b> <br> 
+                                    <input class="report" type="text" placeholder="Write here"></p>
+                                <!--Button-->
+                                <button id="cancel-delete">Cancel</button>
+                                <button id="confirm-delete">Submit</button>
+                            </dialog>
+                            <!--Icon-->
+                            20<i class="fa-solid fa-heart"></i> 
+                            <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="flex-item-two">
                 <div class="card">
                     <div class="pro">
                         <div><img src="./images/profile.png" alt=""> Renjini</div>
                         <div>
-                        <a href="">
-                            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-                        </a>
+                            3 hrs remaing
                         </div>
                     </div>
                     <img class ="image" src="./images/Rectangle 27.png" alt="Avatar" style="width:100%">
+
                     <div class="img-container">
-                        <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                        <div>
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
+                        <div>Renjini</div>
+                        <div  class="like">
+                                <i class="fa-solid fa-heart"></i> 
                         </div>
                     </div>
+
+                    <div class="img-container">
+                        <div><img src="./images/Ellipse 7.png"  class="cmt" alt="">
+                            Without gold rich has no meaning.
+                        </div>
+                        <div onclick="dilogbox()">
+                            <!--Content-->
+                            <dialog class="dlbox" id="confirmation-dialog">
+                                <h3>Select Post</h3>
+                                <p><b>Do you want to select this post?</b> <br><br> 
+                                
+                                <!--Button-->
+                                <button id="confirm-delete">Select</button>
+                                <button id="cancel-delete">Cancel</button>
+                                
+                            </dialog>
+                            <!--Icon-->
+                            80<i class="fa-solid fa-heart"></i> 
+                            <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div><img src="./images/Ellipse 7.png"  class="cmt" alt="">
+                            Without gold rich has no meaning.
+                        </div>
+                        <div onclick="dilogbox()">
+                            <!--Content-->
+                            <dialog class="dlbox" id="confirmation-dialog">
+                                <h3>Report this Post!</h3>
+                                <p><b>Reason for repost</b> <br> 
+                                    <input class="report" type="text" placeholder="Write here"></p>
+                                <!--Button-->
+                                <button id="cancel-delete">Cancel</button>
+                                <button id="confirm-delete">Submit</button>
+                            </dialog>
+                            <!--Icon-->
+                            50<i class="fa-solid fa-heart"></i> 
+                            <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div><img src="./images/Ellipse 7.png"  class="cmt" alt="">
+                            Without gold rich has no meaning.
+                        </div>
+                        <div onclick="dilogbox()">
+                            <!--Content-->
+                            <dialog class="dlbox" id="confirmation-dialog">
+                                <h3>Report this Post!</h3>
+                                <p><b>Reason for repost</b> <br> 
+                                    <input class="report" type="text" placeholder="Write here"></p>
+                                <!--Button-->
+                                <button id="cancel-delete">Cancel</button>
+                                <button id="confirm-delete">Submit</button>
+                            </dialog>
+                            <!--Icon-->
+                            20<i class="fa-solid fa-heart"></i> 
+                            <i id="delete" class="fa-solid fa-ellipsis-vertical fa-lg" style="cursor: pointer;"></i>
+                        </div>
+                    </div>
+                    </div>
+              </div>
+
+
+
+              
+              <!--compleated task-->
+              <div class="col-sm-3">
+                <div class="text">
+                    Compleated Task
                 </div>
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Cloth</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Watch</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Computer</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Mobile</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Sandel</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Computer</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Keyboard</div>
+                </div>
+
+                <div class="img-container">
+                    <div><img src="./images/Ellipse 7.png"  class="cmt" alt=""> Computer</div>
+                </div>
+              </div>
             </div>
 
-            <div class="flex-item-three"><div class="card">
-                <div class="pro">
-                    <div><img src="./images/profile.png" alt=""> Renjini</div>
-                    <div>
-                    <a href="">
-                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-                    </a>
-                    </div>
-                </div>
-                <img class ="image" src="./images/Rectangle 28.png" alt="Avatar" style="width:100%">
-                <div class="img-container">
-                    <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                    <div>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-share-nodes"></i>
-                    </div>
-                </div>
-            </div>
-            </div>
-            
-            <div class="flex-item-four">
-                <div class="card">
-                    <div class="pro">
-                        <div><img src="./images/profile.png" alt=""> Renjini</div>
-                        <div>
-                        <a href="">
-                            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-                        </a>
-                        </div>
-                    </div>
-                    <img class ="image" src="./images/Rectangle 29.png" alt="Avatar" style="width:100%">
-                    <div class="img-container">
-                        <div><img src="./images/Ellipse 7.png" alt=""> Renjini</div>
-                        <div>
-                            <i class="fa-regular fa-heart"></i> 
-                            <i class="fa-solid fa-share-nodes"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 <!--reporting the content-->
 
@@ -305,33 +344,33 @@
 
 
 <!--Footer-->
+<div class="container">
+    <div class="card text-center">
+        <div class="card-header">
+        <div><img src="./images/new-logo 1.png" alt="logo" height="100" width="80"></div>
+                <div class="title">Slogan</div>
+        </div>
+            <div class="card-body" style="height: 350;">
+            <h6 class="card-title">See why we're the world's top source for catchy slogans 10 years running.</h6>
+                <div>
+                <p class="card-text" style="font-size: 20px;">Join us : &nbsp;  
+                    <a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a> &nbsp; 
+                    <a href=""><i class="fa-brands fa-twitter fa-lg"></i></a> &nbsp; 
+                    <a href=""><i class="fa-solid fa-envelope fa-lg"></i></a> &nbsp; 
+                    <a href=""><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                </p>
+            </div>   
 
-<div class="card text-center">
-  <div class="card-header">
-    <div><img src="./images/new-logo 1.png" alt="logo" height="100" width="80"></div>
-            <div class="title">Slogan</div>
-  </div>
-  <div class="card-body" style="height: 350;">
-    <h6 class="card-title">See why we're the world's top source for catchy slogans 10 years running.</h6>
-        <div>
-        <p class="card-text" style="font-size: 20px;">Join us : &nbsp;  
-            <a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a> &nbsp; 
-            <a href=""><i class="fa-brands fa-twitter fa-lg"></i></a> &nbsp; 
-            <a href=""><i class="fa-solid fa-envelope fa-lg"></i></a> &nbsp; 
-            <a href=""><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
-        </p>
-        </div>   
-
-  </div>
-  <div class="card-footer text-muted">
-    &copy;&nbsp; 
-    <a href="">Help</a>&nbsp; &nbsp; 
-    <a href="">How to Make a Slogan</a>&nbsp; &nbsp; 
-    <a href="Terms.html">Terms of Use</a>&nbsp; &nbsp; 
-    <a href="">Contact Us</a>
-  </div>
+        </div>
+        <div class="card-footer text-muted">
+        &copy;&nbsp; 
+        <a href="">Help</a>&nbsp; &nbsp; 
+        <a href="">How to Make a Slogan</a>&nbsp; &nbsp; 
+        <a href="Terms.html">Terms of Use</a>&nbsp; &nbsp; 
+        <a href="">Contact Us</a>
+        </div>
+    </div>
 </div>
-
 
 
 </body>
